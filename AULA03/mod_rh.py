@@ -25,4 +25,4 @@ def exibir_colaboradores(lista_colaboradores: list) -> None:
     for colab in lista_colaboradores:
         print(f"{colab['nome']:<15} | {colab['cargo']:<15} | R$ {colab['salario']:<.2f}")
         
-    print("=" * 45)
+    print("=" * 45) 
